@@ -7,6 +7,16 @@ public class Response {
 	private String userId;
 	private List<OrderResponse> orders = null;
 
+	public Response(String userId, List<OrderResponse> orders) {
+		super();
+		this.userId = userId;
+		this.orders = orders;
+	}
+
+	public Response() {
+		super();
+	}
+
 	public String getUserId() {
 		return userId;
 	}

@@ -3,6 +3,19 @@ package com.example.responsemodel;
 
 public class Item {
 
+public Item(Integer productId, String productName, Integer quantity, Double productPrice, Double productTotal) {
+		super();
+		this.productId = productId;
+		this.productName = productName;
+		this.quantity = quantity;
+		this.productPrice = productPrice;
+		this.productTotal = productTotal;
+	}
+
+public Item() {
+	super();
+}
+
 private Integer productId;
 private String productName;
 private Integer quantity;
